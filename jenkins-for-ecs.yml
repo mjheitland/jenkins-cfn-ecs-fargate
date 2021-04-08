@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 Parameters:
   CertificateArn:
     Type: String
-    Default: 
+    Default: jenki-LoadB-11ZVBSDN0DA8P-503870070.eu-west-1.elb.amazonaws.com
     AllowedPattern: '^.+$'
     Description: ARN of an existing certificate which will be attached to the ALB created by the stack, to serve HTTPS traffic (mandatory).
   JenkinsDockerImage:
